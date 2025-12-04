@@ -1,0 +1,83 @@
+Este gráfico refleja tu nivel de consumo. A menor uso, mayor apoyo. 
+(1) SCnMEM: Costos relacionados con los servicios del Mercado. (2) DAP: Derecho al Alumbrado Público. (3) Cargos o créditos: Di versos conceptos que se pueden incluir en el aviso recibo relacionados con el suministro.Subtotal
+ConceptoDesglose del importe a pagar
+Importe (MXN) Importe (MXN) ConceptoCostos de la energía en el Mercado Eléctrico Mayorista 
+$/kWh $/kW $ 
+Concepto Total 
+periodo (MXN)Subtotal
+(MXN)Lectura actual
+Medida  Estimada  Lectura anterior
+Estimada  Medida  Precio
+RFC: CFE370814QI0Comisión Federal de Electricidad
+Av. Paseo de la Reforma 164, Col. Juárez,
+Alcaldía: Cuauhtémoc, Código Postal: 06600,
+Ciudad de México. 
+CARDENAS LIZZIY ALEJANDRO
+COLINA LOS LIMONES M 25 L 18
+C.LOS LIMONES
+COLINAS PLUSC.P.23444
+SAN JOSE DEL CABO,BCS
+NO. DE SERVICIO:009090402371
+RMU:23444 09-04-26 XAXX-010101 004 CFE
+CUENTA:23DA17B010363080
+LÍMITE DE PAGO:03 OCT 25
+CORTE A PARTIR:04 OCT 25
+TARIFA:1CNO. MEDIDOR:NE650C
+MULTIPLICADOR:1
+NO HILOS:2
+PERIODO FACTURADO:17 JUL 25-17 SEP 25TOTAL A PAGAR:
+$7,828
+$7,828(SIETE MIL OCHOCIENTOS VEINTIOCHO PESOS  M.N.)
+(SIETE MIL OCHOCIENTOS VEINTIOCHO PESOS  M.N.)X X 
+Energía (kWh)
+ ↓
+Fecha, hora y lugar de impresion:04/11/2025 20:34:36hrsMision San Jose Esq.Mision San JavierChula VistaSan Jose del CaboBaja California SurMexicoCP 23443
+23444 09-04-26 XAXX-010101 004 CFE
+23DA17B010363080Repartir01 009090402371 251003 000007828 8
+-1-
+32,154 30,085 2,069
+Basico 300 0.973 291.90
+Intermedio1 300 1.127 338.10
+Intermedio2 300 1.450 435.00
+Excedente 1,169 3.875 4,529.87
+Suministro 156.58 0.00 0.00 156.58
+Distribución 0.00 0.00 1,799.41 1,799.41
+Transmisión 0.00 0.00 374.28 374.28
+CENACE 0.00 0.00 13.45 13.45
+Energía 0.00 0.00 2,004.86 2,004.86
+Capacidad 0.00 0.00 1,067.60 1,067.60
+SCnMEM(1) 0.00 0.00 12.83 12.83Energia 5,594.88
+IVA 16% 895.18
+Fac. del Periodo 6,490.06
+Aire Acond 1,338.00
+Adeudo Anterior 5,626.39
+Su Pago -5,626.00
+Total 7,828.45
+CONSUMO HISTÓRICO
+Conoce los servicios de los diferentes suministradores: http://usuariocalificado.cre.gob.mx/UsuarioCalificado/ListadoSuministrador Importe Pagos Pendientes 
+de Pago
+jun-17 ago-17 oct-17 dic-17 feb-18 abr-18 jun-18 ago-18 oct-18 dic-18 feb-19Período
+¡AVISO IMPORTANTE!
+Instancias y recursos a disposición de los usuarios para atender quejas: 
+ 
+Datos Fiscales del Receptor     Cadena Original     Este documento es una representación impresa de un CFDI PPD
+RFC: RFC Razón Social:  Régimen Fiscal: 000 Uso CFDI:  CP: 00000 AC Folio: 000037666279 Folio Fiscal:  N. Certificado del SAT:  No. certificado del CSD:  Fecha y hora de certificación:  Unidad de medi
+da: kWh
+|||||||||
+Tu comprobante fiscal es emitido por Comision Federal de Electricidad con el RFC CFE 370814QI0.
+¿Confort o desperdicio? Cuida tu consumo electrico. Nuestro compromiso es seguir conectados contigo.
+Corte a partir del 04 OCT 25.
+Con este consumo se redujo la aportacion gubernamental. Ahorrar luz podria representar beneficios en su gasto familiar.
+Le invitamos a que se registre en nuestro portal y disfrute de la comodidad de nuestros servicios en linea.
+-2-
+del 19 MAY 25 al 17 JUL 25 1586 $5,626.00 $5,626.00
+del 19 MAR 25 al 19 MAY 25 577 $987. 00 $987. 00
+del 17 ENE 25 al 19 MAR 25 503 $1,158.00 $1,158.00
+del 19 NOV 24 al 17 ENE 25 641 $1,753.00 $1,753.00
+del 18 SEP 24 al 19 NOV 24 1435 $2,729.00 $2,729.00
+del 22 JUL 24 al 18 SEP 24 3449 $12,155.00 $12,155.00
+del 23 MAY 24 al 22 JUL 24 3111 $10,626.00 $10,626.00
+del 21 MAR 24 al 23 MAY 24 756 $1,517.00 $1,517.00
+del 23 ENE 24 al 21 MAR 24 433 $815. 00 $815. 00
+del 23 NOV 23 al 23 ENE 24 615 $1,572.00 $1,572.00
+del 25 SEP 23 al 23 NOV 23 1196 $3,014.00 $3,014.00

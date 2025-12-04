@@ -1,0 +1,56 @@
+Este gráfico refleja tu nivel de consumo. A menor uso, mayor apoyo. 
+(1) SCnMEM: Costos relacionados con los servicios del Mercado. (2) DAP: Derecho al Alumbrado Público. (3) Cargos o créditos: Di versos conceptos que se pueden incluir en el aviso recibo relacionados con el suministro.Subtotal
+ConceptoDesglose del importe a pagar
+Importe (MXN) Importe (MXN) ConceptoCostos de la energía en el Mercado Eléctrico Mayorista 
+$/kWh $/kW $ 
+Concepto Total 
+periodo (MXN)Subtotal
+(MXN)Lectura actual
+Medida  Estimada  Lectura anterior
+Estimada  Medida  Precio
+RFC: CFE370814QI0Comisión Federal de Electricidad
+Av. Paseo de la Reforma 164, Col. Juárez,
+Alcaldía: Cuauhtémoc, Código Postal: 06600,
+Ciudad de México. 
+RUIZ OJEDA MIGUEL ANGEL ALEJAN
+VALENTIN G FARIAS 111
+PLAN DE AYALA A ALZATE
+LINDA VISTA           8C.P.76168
+QUERETARO,QRO.
+NO. DE SERVICIO:076191005569
+RMU:76168 19-10-28 RUOM-640325 001 CFE
+CUENTA:08DP09A010846580
+LÍMITE DE PAGO:21 AGO 25
+CORTE A PARTIR:22 AGO 25
+TARIFA:PDBTNO. MEDIDOR:W351BU
+MULTIPLICADOR:1
+NO HILOS:1
+PERIODO FACTURADO:04 JUN 25-05 AGO 25TOTAL A PAGAR:
+$174
+$174(CIENTO SETENTA Y CUATRO PESOS  M.N.)
+(CIENTO SETENTA Y CUATRO PESOS  M.N.)X X 
+Energía (kWh)
+↓
+Fecha, hora y lugar de impresion:04/11/2025 20:33:42hrsJuarezNo 6 NorteCentro HistoricoQueretaroQueretaroQueretaroMexicoCP 76000
+76168 19-10-28 RUOM-640325 001 CFE
+08DP09A010846580Repartir01 076191005569 250821 000000174 7
+-1-
+8,376 8,360 16
+Suministro 73.78 0.00 0.00 73.78
+Distribución 0.00 0.00 15.56 15.56
+Transmisión 0.00 0.00 2.89 2.89
+CENACE 0.00 0.00 0.10 0.10
+Energía 0.00 0.00 29.33 29.33
+Capacidad 0.00 0.00 18.91 18.91
+SCnMEM(1) 0.00 0.00 0.10 0.10Cargo Fijo((3)) 73.78
+Energia 66.89
+Subtotal 140.67
+IVA 16% 22.51
+Fac. del Periodo 163.18
+DAP((2)) 11.25
+Adeudo Anterior 163.03
+Su Pago -163.00
+Total 174.46CONSUMO HISTÓRICO
+Conoce los servicios de los diferentes suministradores: http://usuariocalificado.cre.gob.mx/UsuarioCalificado/ListadoSuministrador Importe Pagos Pendientes 
+de Pago
+jun-17 ago

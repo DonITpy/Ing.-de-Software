@@ -1,0 +1,136 @@
+@FE
+Comisión Federal de Electricidad
+Av. Paseo de la Reforma 164, Col. Juárez,
+Alcaldía: Cuauhtémoc; Código Postal: 06600,
+Comisión Federal de Electricidad
+Ciudad de México. RFC: CFE3708140/0
+SERV INMOB EL PUENTE SA CV
+TOTAL A PAGAR:
+AV MANUFACTURA 1 119
+$1,707
+PLAZA EL PUENTE
+QUINTAS LA LABORCILLA 8
+(UN MIL SETECIENTOS SIETE PESOS MNJ)
+G.P.76168
+QUERETARO;QRO.
+NO. DE SERVICIO:076250479464
+PERIODO FACTURADO:03 SEP 25-06 OCT 25
+RMU:76168 25-04-11 SIPO-51004 005 CFE
+CUENTA:B2DPO9A016215115
+TARIFAPDBT
+NO. MEDIDOR;XCU153
+MULTIPLICADOR:1
+FECHA LIMITE DE PAGO-2O OCT 25
+NO HILOS:2
+CARGA CONECTADA kW:3
+DEMANDA CONTRATADA kW:3
+CORTE A
+PARTIR:21 OCT 25
+Lectura actual
+Lectura anterior
+Concepto
+No. medidor
+Medida
+Estimada
+Medida
+Estimada
+Diferencia
+Totales
+kWh
+XCU153
+507
+185
+322
+322
+Mes
+Días de mes
+Consumo prom. diario
+Energía kWh
+Precios
+/kWh
+Mes
+Factor de proporción
+Demanda máxima $/kW
+Precios $/kW
+Importe (MXN)
+Factor de potencia
+Costos de la energía en el Mercado Eléctrico Mayorista
+Desglose del importe a pagar
+Concepto
+$
+S/kW
+S/kWh
+Importe (MXN)
+Concepto
+Importe (MXN)
+Suministro
+36.89
+0.00
+0.00
+36.89
+Cargo Fijo((3))
+36.89
+Distribución
+0.00
+0.00
+313.05
+313.05
+Energia
+1,340.14
+Transmisión
+0.00
+0.00
+58.25
+58.25
+Subtotal
+1,377.03
+CENACE
+0.00
+0.00
+3.41
+3.41
+IVA 16%
+220.32
+Energía
+0.00
+0.00
+585.72
+585.72
+Facturacion del Periodo
+1,597,.35
+Capacidad
+0.00
+0.00
+377.71
+377.71
+DAP((2))
+110.16
+SCnMEM(1)
+0.00
+0.00
+2.00
+2.00
+Adeudo Anterior
+539.04
+Su Pago
+539.00
+Total
+1,707.55
+TOTAL
+36.89
+0.00
+1,340.14
+1,377.03
+Fecha; hora y lugar de impresion:23/10/2025 16.35:16hrsJuarezNo 6 NorteCentro HistoricoQueretaroQueretaroQueretaroMexicoCP 76000
+(1) SCnMEM: Costos relacionados con los servicios del Mercado. (2) DAP: Derecho al Alumbrado Público. (3) Cargos 0 créditos: Diversos conceptos
+se pueden incluir en el aviso recibo relacionados con el suministro
+CFE -contigo
+4971
+CFE
+76168 25-04-11 SIPO-51004
+005 CFE
+01 076250479464 251020 000001707 8
+$1,707
+(UN MIL SETECIENTOS SIETE PESOS MN:)
+62DPO9AO16215115Repartir
+que

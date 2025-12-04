@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomiRent • Gestión de Recibos</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
+        body { background: #f6f7f9; color: #121212; }
+
+        header {
+            background: white;
+            padding: 18px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #e2e2e2;
+        }
+
+        .logo { display: flex; align-items: center; gap: 10px; font-size: 22px; font-weight: 700; color: #34495e; }
+
+        nav a {
+            margin-left: 26px;
+            text-decoration: none;
+            color: #34495e;
+            font-weight: 500;
+            font-size: 15px;
+        }
+
+        nav a.active {
+            color: #1abc9c;
+            border-bottom: 2px solid #1abc9c;
+            padding-bottom: 6px;
+        }
+
+        .container { max-width: 1200px; margin: 40px auto; padding: 0 20px; }
+
+        .card {
+            background: white;
+            border-radius: 18px;
+            padding: 35px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+
+        .upload-area {
+            border: 2px dashed #1abc9c;
+            border-radius: 16px;
+            padding: 55px;
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .upload-area:hover { background: #ecfffa; }
+        .upload-area i { font-size: 58px; color: #1abc9c; margin-bottom: 12px; }
+
+        .btn {
+            margin-top: 20px;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 10px;
+            background: #1abc9c;
+            color: white;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .btn:hover { background: #17a589; }
+        .btn:disabled { background: #ccc; cursor: not-allowed; }
+
+        .file-list { margin-top: 28px; display: none; }
+        .file-items { margin-top: 15px; }
+
+        .file-item {
+            background: #fafafa;
+            padding: 15px 20px;
+            border-radius: 12px;
+            margin-bottom: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid #eaeaea;
+        }
+
+        .file-name { font-weight: 500; }
+        .file-size { font-size: 14px; color: #777; }
+
+        .process-btns { margin-top: 30px; display: flex; gap: 18px; }
+
+        #progressContainer { margin-top: 20px; display: none; }
+        .progress-bar {
+            width: 100%; height: 14px; background: #dcdcdc; border-radius: 8px; overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%; width: 0%; background: #1abc9c; transition: width .3s;
+        }
+
+        .results { margin-top: 40px; display: none; }
+
+        /* Estilos mejorados para tablas */
+        .table-container {
+            overflow-x: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        table {
+            width: 100%;
+            min-width: 1000px;
+            border-collapse: collapse;
+            font-size: 13px;
+        }
+
+        thead {
+            background: #f8f9fa;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        th {
+            padding: 12px 10px;
+            text-align: left;
+            font-weight: 600;
+            color: #34495e;
+            border-bottom: 2px solid #e2e2e2;
+            white-space: nowrap;
+            position: relative;
+            min-width: 100px;
+        }
+
+        td {
+            padding: 12px 10px;
+            border-bottom: 1px solid #eee;
+            vertical-align: top;
+            word-wrap: break-word;
+            max-width: 200px;
+        }
+
+        /* Estilos específicos para columnas con contenido largo */
+        td:nth-child(6) { /* Columna Dirección */
+            max-width: 250px;
+            min-width: 150px;
+        }
+
+        td:nth-child(5), /* Columna Calidad */
+        td:nth-child(7), /* Columna N° Servicio */
+        td:nth-child(8), /* Columna Cuenta */
+        td:nth-child(9) { /* Columna N° Medidor */
+            min-width: 120px;
+            max-width: 150px;
+        }
+
+        /* Hover effect para filas */
+        tbody tr:hover {
+            background-color: #f9f9f9;
+            transition: background-color 0.2s ease;
+        }
+
+        /* Estilos para contenido largo */
+        .long-content {
+            max-height: 60px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            line-height: 1.4;
+        }
+
+        /* Estilos para celdas editables */
+        .editable-cell {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .editable-cell:focus {
+            border-color: #1abc9c;
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(26, 188, 156, 0.1);
+        }
+
+        .editable-cell:hover {
+            border-color: #3498db;
+        }
+
+        textarea.editable-cell {
+            resize: vertical;
+            min-height: 60px;
+            font-family: inherit;
+        }
+
+        select.editable-cell {
+            cursor: pointer;
+            background: white;
+            height: 36px;
+        }
+
+        /* Botones adicionales */
+        .export-btn-container {
+            display: flex;
+            gap: 10px;
+            margin: 20px 0;
+            justify-content: flex-end;
+        }
+
+        /* Selector de Servicios */
+        .service-selector {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+        }
+
+        .service-options {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .service-option {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1.5rem 1rem;
+            border: 2px solid #e2e2e2;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .service-option:hover {
+            border-color: #1abc9c;
+            background: rgba(26, 188, 156, 0.05);
+        }
+
+        .service-option.active {
+            border-color: #1abc9c;
+            background: rgba(26, 188, 156, 0.1);
+        }
+
+        .service-option i {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .service-option[data-service="cfe"] i {
+            color: #f59e0b;
+        }
+
+        .service-option[data-service="japam"] i {
+            color: #3b82f6;
+        }
+
+        .service-option[data-service="gas"] i {
+            color: #ef4444;
+        }
+
+        .service-option[data-service="all"] i {
+            color: #8b5cf6;
+        }
+
+        /* Estilos de modales */
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 1000;
+            display: none;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal.open {
+            display: flex;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Secciones */
+        .section {
+            display: none;
+        }
+
+        .section.active {
+            display: block;
+        }
+
+        /* Scrollbar personalizado para tablas */
+        .table-container::-webkit-scrollbar {
+            height: 8px;
+        }
+
+        .table-container::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 4px;
+        }
+
+        .table-container::-webkit-scrollbar-thumb {
+            background: #c1c1c1;
+            border-radius: 4px;
+        }
+
+        .table-container::-webkit-scrollbar-thumb:hover {
+            background: #a8a8a8;
+        }
+
+        /* Badges para tipo de lectura */
+        .reading-badge {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            display: inline-block;
+        }
+
+        .reading-estimated {
+            background: #fef3c7;
+            color: #d97706;
+        }
+
+        .reading-measured {
+            background: #d1fae5;
+            color: #059669;
+        }
+
+        /* Estilos específicos para DASHBOARD */
+        .dashboard-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .dashboard-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .metric-card {
+            background: linear-gradient(135deg, #1abc9c20, #1abc9c10);
+            padding: 1.5rem;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            border: 2px solid #1abc9c30;
+            transition: all 0.3s ease;
+        }
+        
+        .metric-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+        
+        .metric-card:nth-child(2) {
+            background: linear-gradient(135deg, #3498db20, #3498db10);
+            border: 2px solid #3498db30;
+        }
+        
+        .metric-card:nth-child(3) {
+            background: linear-gradient(135deg, #e74c3c20, #e74c3c10);
+            border: 2px solid #e74c3c30;
+        }
+        
+        .metric-card:nth-child(4) {
+            background: linear-gradient(135deg, #f59e0b20, #f59e0b10);
+            border: 2px solid #f59e0b30;
+        }
+        
+        .metric-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            transition: all 0.3s ease;
+        }
+        
+        .metric-card:nth-child(1) .metric-value {
+            color: #1abc9c;
+        }
+        
+        .metric-card:nth-child(2) .metric-value {
+            color: #3498db;
+        }
+        
+        .metric-card:nth-child(3) .metric-value {
+            color: #e74c3c;
+        }
+        
+        .metric-card:nth-child(4) .metric-value {
+            color: #f59e0b;
+        }
+        
+        .metric-label {
+            color: #6c757d;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+        
+        .dashboard-filter {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            border: 1px solid #e2e2e2;
+        }
+        
+        .filter-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .filter-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: #34495e;
+            font-size: 0.9rem;
+        }
+        
+        .filter-group input,
+        .filter-group select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            background: white;
+        }
+        
+        .charts-container {
+            margin-bottom: 2rem;
+        }
+        
+        .chart-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            border: 1px solid #e2e2e2;
+        }
+        
+        .distribution-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .distribution-item {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            border-left: 4px solid;
+        }
+        
+        .recent-files-table {
+            overflow-x: auto;
+            margin-top: 1rem;
+        }
+        
+        .recent-files-table table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 600px;
+        }
+        
+        .recent-files-table th {
+            padding: 0.75rem;
+            text-align: left;
+            font-weight: 600;
+            color: #34495e;
+            border-bottom: 2px solid #e2e2e2;
+            background: #f8f9fa;
+        }
+        
+        .recent-files-table td {
+            padding: 0.75rem;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .recent-files-table tr:hover {
+            background-color: #f9f9f9;
+        }
+        
+        .service-badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            border: 1px solid;
+        }
+        
+        .badge-cfe {
+            background: #f59e0b20;
+            color: #f59e0b;
+            border-color: #f59e0b40;
+        }
+        
+        .badge-japam {
+            background: #3b82f620;
+            color: #3b82f6;
+            border-color: #3b82f640;
+        }
+        
+        .badge-gas {
+            background: #ef444420;
+            color: #ef4444;
+            border-color: #ef444440;
+        }
+        
+        .status-badge {
+            padding: 0.25rem 0.5rem;
+            background: #d1fae5;
+            color: #059669;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        /* Responsive */
+        @media (max-width: 1200px) {
+            table {
+                font-size: 12px;
+            }
+            
+            th, td {
+                padding: 10px 8px;
+            }
+            
+            .editable-cell {
+                padding: 6px;
+                font-size: 12px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            header { padding: 15px 20px; }
+            nav a { margin-left: 15px; font-size: 14px; }
+            .container { padding: 0 15px; margin: 20px auto; }
+            .card { padding: 20px; }
+            .upload-area { padding: 30px; }
+            .service-options { grid-template-columns: 1fr; }
+            
+            .table-container {
+                border-radius: 8px;
+                margin: 15px -10px;
+                width: calc(100% + 20px);
+            }
+            
+            table {
+                font-size: 11px;
+                min-width: 800px;
+            }
+            
+            th, td {
+                padding: 8px 6px;
+            }
+            
+            td:nth-child(6) { /* Dirección */
+                max-width: 180px;
+                min-width: 120px;
+            }
+            
+            .editable-cell {
+                padding: 4px;
+                font-size: 11px;
+            }
+            
+            .export-btn-container {
+                flex-direction: column;
+            }
+            
+            .export-btn-container .btn {
+                width: 100%;
+                margin-bottom: 5px;
+            }
+            
+            .dashboard-header {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .dashboard-header .btn {
+                width: 100%;
+                margin-bottom: 0.5rem;
+            }
+            
+            .filter-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .dashboard-metrics {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><i class="fas fa-home"></i> HomiRent</div>
+        <nav>
+            <a href="#upload" class="nav-link active">Cargar Recibos</a>
+            <a href="#dashboard" class="nav-link">Dashboard</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Selector de Servicios -->
+        <div class="service-selector">
+            <h3 style="margin-bottom: 1rem; color: #34495e;">Seleccionar Servicio</h3>
+            <div class="service-options">
+                <div class="service-option active" data-service="all">
+                    <i class="fas fa-layer-group"></i>
+                    <span>Todos los Servicios</span>
+                </div>
+                <div class="service-option" data-service="cfe">
+                    <i class="fas fa-bolt"></i>
+                    <span>CFE (Luz)</span>
+                </div>
+                <div class="service-option" data-service="japam">
+                    <i class="fas fa-tint"></i>
+                    <span>JAPAM (Agua)</span>
+                </div>
+                <div class="service-option" data-service="gas">
+                    <i class="fas fa-fire"></i>
+                    <span>Gas</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección Upload (activa por defecto) -->
+        <div id="upload" class="section active">
+            <div class="card">
+                <h2 style="margin-bottom: 25px; color:#34495e">Subir Recibos</h2>
+
+                <div class="upload-area" id="uploadArea">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <h3>Arrastra tus PDF aquí</h3>
+                    <p style="color:#6c757d">CFE • JAPAM • GAS</p>
+                    <button class="btn" id="selectFiles">Seleccionar Archivos</button>
+                    <input type="file" id="fileInput" multiple accept=".pdf" hidden>
+                </div>
+
+                <div class="file-list" id="fileList">
+                    <h4 style="margin-bottom: 10px;">Archivos seleccionados:</h4>
+                    <div class="file-items" id="fileItems"></div>
+                </div>
+
+                <div id="progressContainer">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <p id="progressText" style="margin-top: 8px;">0/0</p>
+                </div>
+
+                <div class="process-btns">
+                    <button class="btn" id="processFiles" disabled>Procesar Lote</button>
+                    <button class="btn" style="background:#e74c3c" id="clearFiles">Limpiar Lista</button>
+                </div>
+
+                <div class="results" id="resultsContainer">
+                    <h3 style="margin-bottom: 20px;">Resultados del Procesamiento</h3>
+
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Titular</th>
+                                    <th>Servicio</th>
+                                    <th>Consumo</th>
+                                    <th>Total</th>
+                                    <th>Calidad</th>
+                                    <th>Dirección</th>
+                                    <th>N° Servicio</th>
+                                    <th>Cuenta</th>
+                                    <th>N° Medidor</th>
+                                    <th>Periodo</th>
+                                </tr>
+                            </thead>
+                            <tbody id="resultsGrid">
+                                <!-- Filas editables dinámicas -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección Dashboard - ACTUALIZADA Y FUNCIONAL -->
+        <div id="dashboard" class="section">
+            <div class="card">
+                <div class="dashboard-header">
+                    <h2 style="color:#34495e; margin: 0;">
+                        <i class="fas fa-tachometer-alt"></i> Dashboard
+                    </h2>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <button class="btn" id="updateStats" style="background: #1abc9c;">
+                            <i class="fas fa-sync-alt"></i> Actualizar
+                        </button>
+                        <button class="btn" id="exportDashboardBtn" style="background: #10b981;">
+                            <i class="fas fa-download"></i> Exportar Dashboard
+                        </button>
+                        <button class="btn" onclick="app.exportToCSV()" style="background: #3498db;">
+                            <i class="fas fa-file-csv"></i> Exportar CSV
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Controles de filtro -->
+                <div class="dashboard-filter">
+                    <h4 style="color: #34495e; margin-bottom: 1rem;">
+                        <i class="fas fa-filter"></i> Filtrar Resultados
+                    </h4>
+                    <div class="filter-grid">
+                        <div class="filter-group">
+                            <label style="display: block; margin-bottom: 0.5rem; font-weight: 500; color: #34495e; font-size: 0.9rem;">
+                                <i class="far fa-calendar-plus"></i> Fecha Inicio
+                            </label>
+                            <input type="date" id="startDate" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 8px; font-size: 0.9rem; background: white;">
+                        </div>
+                        <div class="filter-group">
+                            <label style="display: block; margin-bottom: 0.5rem; font-weight: 500; color: #34495e; font-size: 0.9rem;">
+                                <i class="far fa-calendar-minus"></i> Fecha Fin
+                            </label>
+                            <input type="date" id="endDate" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 8px; font-size: 0.9rem; background: white;">
+                        </div>
+                        <div class="filter-group">
+                            <label style="display: block; margin-bottom: 0.5rem; font-weight: 500; color: #34495e; font-size: 0.9rem;">
+                                <i class="fas fa-calendar-alt"></i> Período
+                            </label>
+                            <select id="periodSelect" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 8px; font-size: 0.9rem; background: white; cursor: pointer;">
+                                <option value="all">Todo el período</option>
+                                <option value="month">Este mes</option>
+                                <option value="quarter">Este trimestre</option>
+                                <option value="year">Este año</option>
+                            </select>
+                        </div>
+                        <div style="display: flex; align-items: flex-end;">
+                            <button class="btn" id="filterDateBtn" style="background: #3498db; width: 100%; padding: 0.75rem;">
+                                <i class="fas fa-filter"></i> Aplicar Filtro
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Panel de Métricas -->
+                <div class="dashboard-metrics" id="metricsPanel">
+                    <div class="metric-card">
+                        <div class="metric-value" id="totalProperties">0</div>
+                        <div class="metric-label">
+                            <i class="fas fa-file-pdf"></i> Archivos Procesados
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value" id="totalServices">0</div>
+                        <div class="metric-label">
+                            <i class="fas fa-bolt"></i> Servicios Extraídos
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value" id="pendingPayments">0</div>
+                        <div class="metric-label">
+                            <i class="fas fa-clock"></i> Lecturas Estimadas
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value" id="estimatedReadings">0</div>
+                        <div class="metric-label">
+                            <i class="fas fa-ruler"></i> Lecturas Medidas
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Gráficos -->
+                <div id="chartsContainer" class="charts-container">
+                    <!-- Los gráficos se generarán aquí dinámicamente -->
+                </div>
+                
+                <!-- Distribución de Servicios -->
+                <div class="chart-card">
+                    <h3 style="color: #34495e; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                        <i class="fas fa-chart-pie"></i> Distribución por Tipo de Servicio
+                    </h3>
+                    <div id="servicesDistribution">
+                        <!-- Se llenará dinámicamente -->
+                    </div>
+                </div>
+                
+                <!-- Montos Totales -->
+                <div class="chart-card">
+                    <h3 style="color: #34495e; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                        <i class="fas fa-money-bill-wave"></i> Resumen Financiero
+                    </h3>
+                    <div id="totalAmounts">
+                        <!-- Se llenará dinámicamente -->
+                    </div>
+                </div>
+                
+                <!-- Archivos Recientes -->
+                <div class="chart-card">
+                    <h3 style="color: #34495e; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                        <i class="fas fa-history"></i> Archivos Procesados Recientemente
+                    </h3>
+                    <div class="recent-files-table" id="recentFilesTable">
+                        <!-- Se llenará dinámicamente -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Carga -->
+    <div id="loadingModal" class="modal">
+        <div style="background: white; padding: 2rem; border-radius: 12px; text-align: center; max-width: 400px;">
+            <div style="border: 4px solid #f3f3f3; border-top: 4px solid #1abc9c; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 0 auto 1rem;"></div>
+            <h3 style="margin-bottom: 10px; color: #34495e;">Procesando archivos...</h3>
+            <p id="loadingMessage" style="color: #6c757d;">Por favor espera</p>
+        </div>
+    </div>
+
+    <!-- Modal de Detalles -->
+    <div id="detailModal" class="modal">
+        <div style="background: white; padding: 2rem; border-radius: 12px; max-width: 800px; max-height: 80vh; overflow: auto; width: 90%;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+                <h3 style="color: #34495e;">Detalles del Recibo</h3>
+                <button id="closeDetailModal" style="background: none; border: none; font-size: 1.5rem; cursor: pointer; color: #666;">×</button>
+            </div>
+            <div id="detailModalBody"></div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/upload.js"></script>
+
+    <script>
+        // Inicializar navegación básica y dashboard
+        document.addEventListener('DOMContentLoaded', function() {
+            // Navegación entre secciones
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Actualizar navegación activa
+                    navLinks.forEach(l => l.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Mostrar sección correspondiente
+                    const targetId = this.getAttribute('href').replace('#', '');
+                    document.querySelectorAll('.section').forEach(section => {
+                        section.classList.remove('active');
+                    });
+                    document.getElementById(targetId).classList.add('active');
+                    
+                    // Si es dashboard, actualizar métricas
+                    if (targetId === 'dashboard' && window.app && window.app.updateDashboardMetrics) {
+                        setTimeout(() => {
+                            window.app.updateDashboardMetrics();
+                        }, 300);
+                    }
+                });
+            });
+
+            // Selector de servicios
+            const serviceOptions = document.querySelectorAll('.service-option');
+            serviceOptions.forEach(option => {
+                option.addEventListener('click', function() {
+                    serviceOptions.forEach(opt => opt.classList.remove('active'));
+                    this.classList.add('active');
+                    // Esto será manejado por app.js
+                });
+            });
+
+            // Botón para cerrar modal de detalles
+            const closeDetailBtn = document.getElementById('closeDetailModal');
+            if (closeDetailBtn) {
+                closeDetailBtn.addEventListener('click', function() {
+                    document.getElementById('detailModal').classList.remove('open');
+                });
+            }
+
+            // Cerrar modal al hacer clic fuera
+            const modals = document.querySelectorAll('.modal');
+            modals.forEach(modal => {
+                modal.addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        this.classList.remove('open');
+                    }
+                });
+            });
+
+            // Cerrar modal con ESC
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') {
+                    modals.forEach(modal => modal.classList.remove('open'));
+                }
+            });
+            
+            // Configurar controles del dashboard
+            setTimeout(() => {
+                // Botón de actualizar dashboard
+                const updateStatsBtn = document.getElementById('updateStats');
+                if (updateStatsBtn) {
+                    updateStatsBtn.addEventListener('click', () => {
+                        if (window.app && window.app.updateDashboardMetrics) {
+                            window.app.updateDashboardMetrics();
+                        }
+                    });
+                }
+                
+                // Botón de exportar dashboard
+                const exportDashboardBtn = document.getElementById('exportDashboardBtn');
+                if (exportDashboardBtn) {
+                    exportDashboardBtn.addEventListener('click', () => {
+                        if (window.app && window.app.exportDashboardToCSV) {
+                            window.app.exportDashboardToCSV();
+                        }
+                    });
+                }
+                
+                // Botón de filtro por fecha
+                const filterDateBtn = document.getElementById('filterDateBtn');
+                if (filterDateBtn) {
+                    filterDateBtn.addEventListener('click', () => {
+                        if (window.app && window.app.filterByDate) {
+                            window.app.filterByDate();
+                        }
+                    });
+                }
+                
+                // Selector de período
+                const periodSelect = document.getElementById('periodSelect');
+                if (periodSelect) {
+                    periodSelect.addEventListener('change', (e) => {
+                        if (window.app && window.app.changePeriod) {
+                            window.app.changePeriod(e.target.value);
+                        }
+                    });
+                }
+                
+                // Establecer fechas por defecto
+                const today = new Date();
+                const firstDay = new Date(today.getFullYear(), today.getMonth(), 1);
+                const lastDay = new Date(today.getFullYear(), today.getMonth() + 1, 0);
+                
+                const startDateInput = document.getElementById('startDate');
+                const endDateInput = document.getElementById('endDate');
+                
+                if (startDateInput) {
+                    startDateInput.valueAsDate = firstDay;
+                }
+                if (endDateInput) {
+                    endDateInput.valueAsDate = lastDay;
+                }
+                
+                // Auto-actualizar dashboard cuando esté activo
+                setInterval(() => {
+                    const dashboardSection = document.getElementById('dashboard');
+                    if (dashboardSection && dashboardSection.classList.contains('active')) {
+                        if (window.app && window.app.updateDashboardMetrics) {
+                            window.app.updateDashboardMetrics();
+                        }
+                    }
+                }, 30000); // Actualizar cada 30 segundos
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

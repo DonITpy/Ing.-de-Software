@@ -1,0 +1,125 @@
+NOMBRE Y DIRECCIÓN DEL CLIENTE R.F.C.
+FORMA DE PAGORÉGIMEN FISCAL FECHA LÍMITE DE PAGO MONTO A PAGAR
+CLAVE DEL CLIENTE  CUENTA CONTRATO TIPO DE CLIENTE TIPO DE DISTRIBUCIÓNMÉTODO DE PAGO
+PCB24041884A
+99 - Por definir601 General de Ley Personas 
+MoralesPPD - Pago en parcialidades o 
+diferidoSAP  9288240887
+ 76120, 2025-09-24T09:52:55
+De 08.08.2025 a 05.09.2025ATENCIÓN A CLIENTES 55 9628 0351www.engiem exico.com
+ IVA incluidoFOLIO
+LUGAR Y FECHA DE EXPEDICIÓN
+PERIODO DE CONSUMO
+19.10.2025                 "Este documento es una representación impresa de un CFDI"
+R.F.C:TDI 660211 CR7
+PORTAFOLIO CERO DEL BAJIO
+AVENIDA UNIVERSIDAD OTE 48, 4 SIN CALLE SIN CALLE
+PATHE
+QUERETARO
+C.P. 76020, QUERÉTARO45DA1FC8-5EA9-4877-B3DA-DEA1D127B305 
+TRACTEBEL DIGAQRO
+Acceso III No. 107 
+Col. Parque Industrial Benito Juárez 
+Querétaro, Qro. C.P. 76120
+RÉGIMEN FISCAL RECEPTOR USO DE CFDI
+RECEPTOR
+G03 Gastos en general601 General de Ley Personas Morales410291408 5100277419 COMERCIAL PEQ. EMP. CON 
+COMERCIALIZACIONFACTURA
+5,814.00
+CONSUMO 
+CORREGIDO m³ 
+29.00 REAL 280.00 1.000 280.00 36,443 280.00 36,163 35710271DÍAS DE 
+CONSUMO FACTOR DE 
+CORRECCIÓNLECTURA MEDIDORTOTAL CONSUMO m ³ CONSUMO m³ ACTUAL ANTERIOR CONSUMO m³ NÚMERO MEDIDOR
+HISTORIAL DE CONSUMO UNIDAD CANTIDAD DESCRIPCIÓN PRECIO UNITARIO DESCUENTO IMPORTE
+04080120160200240280
+04 05 06 07 
+  PROMEDIO MENSUAL : m³86.00000GJ 08.08.2025 a 31.08.2025 8.239061 Adquisición de Gas Natural 79.7691 657.2200
+GJ 01.09.2025 a 05.09.2025 1.716477 Adquisición de Gas Natural 78.0502 133.9700
+GJ 08.08.2025 a 05.09.2025 9.955539 Volumétrico Gas Natural PCG2 72.1976 718.7700
+Servicio 08.08.2025 a 05.09.2025 1.000000 Servicio Fijo Gas Natural PCG2 222.8599 222.8600
+Servicio 1.0000 Conexión Estandar: 124.4600 124.4600
+ 1,857.28 SUBTOTAL : 
+Tasa IVA 16.00 %  297.16
+SALDO ANTERIOR :   ( SI USTED YA REALIZÓ ESTE PAGO FAVOR DE HACER CASO OMISO ) 3,659.09
+ESTADO CTA ACTUAL
+MONTO A PAGAR5,813.53
+5,814.00
+Equivalencia de 1 caloría = 4.1868 Joule
+Promedio del Poder Calorífico = 0.008492284 GCAL/M3TOTAL : DOS MIL CIENTO CINCUENTA Y CUATRO PESOS 44 /100 M.N  2,154.44
+NOMBRE Y DIRECCIÓN DEL CLIENTE 
+CLAVE DEL CLIENTEPORTAFOLIO CERO DEL BAJIO
+PRIMAVERA PTE 12 A INVIERNO EMILIO CARRANZA
+CENTRO
+QUERETARO
+C.P.76000 , QUERÉTARO
+410291408
+FOLIO FISCAL    45DA1FC8-5EA9-4877-B3DA-DEA1D127B305
+TRACTEBEL DIGAQRO
+ENGIE es una marca registradaNúmero de serie del certificado de sello digital CFDI:  00001000000711420773
+Número de serie del certificado de sello digital del SAT : 00001000000705359682
+Sello digital del CFDI: 
+WnHXjspyPtBqkFc2T5FBeAD/QL16PFzS6x72+LK4ogqVc1GF8b8 HLTEhoC 14EZzu0/uOW+I5H7vS39apeeGmXwPSEUHOSyDBCvn6fnZLMGHYFsUABUREGrkr7iXif8ICQnDDhZ
+2Fw8BtkC4xUG7mM/zNnzGmmsvKstND962vsQBnQSSlvTq2vT6JI3KuZmU4o5dputD8nbtb6Ei1bgfbbofMN4gjPJk2a6fR1GLm++N0lUBpC8qfKkkbPomGFjr4qNjueyT4uYt8MlGMk2t
+D7s9bf02bHkOyZvRMAt1IgNK6pPJnbTk3zKmU/fkOtqZ0B42RxKAcNUJmTMuB8v8q5g==
+Sello digital del SAT : 
+MtJ2 lgIWSWBVArcHF 0/ITUGa1NENCft/3uUpj69ifi+5HJ77/GuF/jLCB7XkADJsg0f0QPWBU1gzBMapWmOiOyx/ZHV5bsbQ8DfpUS/cBMBQXUQcH1p/u+LKfUCILQ6lI53It5K08hU3
+p9w4vj/n2Wzpw6Dlq+LOGg6mDdD+kg1x3uPNa733IbtG5qBMj7QCSIq5z/9zOuD9gzpL0EXUdbZQ0cm5Iy5Lh6WEYGsJQuszGEe7mPwIoq3EgfpZ8Jg5xqDt8tzDAfRkEeXDS2OVpy
+BFkkfdqbvFLARRCyYdQKywdyRDnGoAwKTB 3VFlpb/MSx26bQ3TUYO+gaMJAA8wfQ==
+Cadena original del complemento de certificación digital del SAT : 
+||1.1|45DA1FC8-5EA9-4877-B3DA-DEA1D127B305|2025-09-24T09:52:55|DET080304395|WnHXjspyPtBqkFc2T5FBeAD/QL16PFzS6x72+LK4ogqVc1GF8b8 HLTEhoC 14EZzu0/u
+OW+I5H7vS39apeeGmXwPSEUHOSyDBCvn6fnZLMGHYFsUABUREGrkr7iXif8ICQnDDhZ2Fw8BtkC4xUG7mM/zNnzGmmsvKstND962vsQBnQSSlvTq2vT6JI3KuZmU4o5dputD8n
+btb6Ei1bgfbbofMN4gjPJk2a6fR1GLm++N0lUBpC8qfKkkbPomGFjr4qNjueyT4uYt8MlGMk2tD7s9bf02bHkOyZvRMAt1IgNK6pPJnbTk3zKmU/fkOtqZ0B42RxKAcNUJmTMuB8v8q5g
+==|00001000000705359682||
+Fecha y hora de certificaci ón: 2025-09-24T09:52:55
+Secuencia:   G01Q1445 SNA· Evita el corte del servicio, realiza el pago de tu factura antes de la fecha límite.
+· Si tienes un saldo vencido, esta factura sirve como aviso de corte. 
+· En caso de cheque devuelto se aplicará un 20% de indemnización.
+"ENGIE te informa que protege tus Datos Personales conforme a lo previsto en la Ley y su Aviso de Privacidad lo puedes revisar en la página : www.engiemexico.com"
+LUGAR Y FECHA DE 
+EXPEDICIÓN
+QUERETARO , 
+QUERETARO 
+BANCO
+BBVA BANCOMER
+SANTANDER
+OXXO
+7ELEVEN
+TIENDAS 3B
+SORIANA
+PAGO EN LINEA *
+RED PAYNET
+*Mercado Pago, Rappi, Claro PayMONTO A PAGAR
+5,814.00              
+ IVA incluido
+CONVENIO
+0964514
+0010831
+FECHA LÍMITE DE PAGO
+19.10.2025
+REFERENCIA
+0051002774190
+001083151002774197
+110051002774192025101905814007
+1000065100277419
+1000065100277419
+1000065100277419
+1000065100277419
+1001065100277419
+Walmart , Sam's Club, Circle K, Bodega Aurrera , Farmacias
+Guadalajara, Farmacias del Ahorro , Waldo 'sRED PAYNETOXXO
+Codigos de barras exclusivos para establecimientos
+no aplica para BancosEstimado cliente: Le informamos que en  términos 
+de lo establecido en las Condiciones Generales 
+para la Prestación de Servicio de ENGIE aplicable 
+a su Servicio, a partir del 20 de octubre de 2025 se 
+actualizará el costo de los siguientes conceptos: 
+Desconexión $85, Reconexión $130, Remoción de 
+Medidor $120 y Reconexión por Remoción de 
+Medidor: $157. Precios más IVA . Aplica para 
+Clientes Residenciales y Comerciales. Le 
+recomendamos utilizar nuestros métodos de 
+consulta de factura y pago digitales para evitar 
+retraso en su pago e incurrir en cargos 
+innecesarios. Puede consultaros en esta factura.AVISOS  IMPORTANTES
+

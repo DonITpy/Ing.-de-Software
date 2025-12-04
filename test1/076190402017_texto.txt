@@ -1,0 +1,133 @@
+CFE
+Comisión Federal de Electricidad
+Av. Paseo de la Reforma 164, Col. Juárez,
+Alcaldía: Cuauhtémoc; Código Postal: 06600,
+Comisión Federal de Electricidad
+Ciudad de México. RFC: CFE370814Q/0
+CONSTRUCTORA JUPAVA SA DE CV
+TOTAL A PAGAR:
+16 DE SEPTIEMBRE 127 12
+$950
+GTRREZ NAGERA FELIPE LUNA
+(NOVECIENTOS CINCUENTA PESOS
+MN:)
+CENTRO HISTORICOG.P.76030
+QUERETARO,QRO.
+DESCARGA NUESTRA ApP AUtorizAdA
+NO. DE SERVICIO-076190402017
+RMU:76030 19-04-05 CJU9-803242 050 CFE
+CUENTA:ZIDPO9A012103840
+CFE-coptigo
+5249
+LIMITE DE PAGO:29 SEP 25
+CORTE
+4
+PARTIR:30 SEP 25
+CFE
+TARIFA:OINO. MEDIDOR:MFS4SB
+MULTIPLICADOR:1
+NO HILOS:2
+00@
+PERIODO FACTURADO:16 JUL 25-12 SEP 25
+Concepto
+Lectura actual
+Lectura anterior
+Total
+Precio
+Subtotal
+Medida
+Estimada
+Medida
+Estimada
+periodo
+(MXN)
+(MXN)
+Energía (kWh)
+9,719
+9,328
+391
+Basico
+150
+1,091
+163.65
+Intermedio
+130
+1.325
+172.25
+Excedente
+111
+3.875
+430.12
+Este gráfico refleja tu nivel de consumo.
+A menor uso, mayor apoyq
+Subtotal
+Costos de la energía en el Mercado Eléctrico Mayorista
+Desglose del importe a pagar
+Concepto
+$
+S/kW
+S/kWh
+Importe (MXN)
+Concepto
+Importe (MXN)
+Suministro
+73.78
+0.00
+0.00
+73.78
+Energía
+766.03
+Distribución
+0.00
+0.00
+399.60
+399.60
+IVA 16%
+122.56
+Transmisión
+0.00
+0.00
+70.73
+70.73
+Fac. del Periodo
+888.59
+CENACE
+0.00
+0.00
+2.54
+2.54
+DAP((2))
+61.28
+Energía
+0.00
+0.00
+342.91
+342.91
+Adeudo Anterior
+900.18
+Capacidad
+0.00
+0.00
+221.70
+221.70
+Su Pago
+900.00
+SCnMEM(1)
+0.00
+0.00
+2.42
+2.42
+Total
+950.05
+Apoyo Gubernamental 347.65
+Fecha; hora y lugar de impresion: 18/09/2025 13:12:55hrsJuarezNo 6 NorteCentro HistoricoQueretaroQueretaroQueretaroMexicoCP 76000
+(1) SCnMEM: Costos relacionados con los servicios del Mercado: (2) DAP: Derecho al Alumbrado Público. (3) Cargos 0 créditos: Diversos conceptos que se pueden incluir en el aviso recibo relacionados con el suministro.
+CFE contigo
+4971
+CFE
+CF
+76030 19-04-05 CJU9-803242 050 CFE
+076190402017 250929 000000950 2
+$950
+(NOVECIENTOS CINCUENTA PESOS MN:)
+21DPO9A01210384ORepartir

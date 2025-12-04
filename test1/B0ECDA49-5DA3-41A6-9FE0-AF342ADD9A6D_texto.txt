@@ -1,0 +1,127 @@
+CFE
+Comisión Federal de Electricidad
+Av. Paseo de la Reforma 164, Col. Juárez,
+Alcaldía: Cuauhtémoc; Código Postal: 06600,
+Comisión Federal de Electricidad
+Ciudad de México. RFC: CFE370814Q/0
+VALDES PANI FRANCISCO
+TOTAL A PAGAR:
+LIQUIDAMBAR 12 M24 L23
+829,719
+(VEINTINUEVE MIL SETECIENTOS DIECINUEVE PESOS MN:)
+ARBOLEDAS LAS
+8G.PCODIGO_POSTAL
+QUERETARO;,QRO.
+DESCARGA NUESTRA ApP AUtorizAdA
+NO. DE SERVICIO:077870702852
+RMU:76140 87-07-16 XAXX-010101 003 CFE
+CUENTA:Z4DPO9B012490470
+CFE-coptigo
+5249
+LIMITE DE PAGO:O1
+NOV 25
+CORTE
+4
+PARTIR:O2 NOV 25
+CFE
+TARIFA:OINO. MEDIDOR:AD4H15
+MULTIPLICADOR:1
+NO HILOS:2
+00@
+PERIODO FACTURADO:13 FEB 25-16 OCT 25
+Concepto
+Lectura actual
+Lectura anterior
+Total
+Precio
+Subtotal
+Medida
+Estimada
+Medida
+Estimada
+periodo
+(MXN)
+(MXN)
+Energía (kWh)
+20,956
+17,759
+3,197
+3,978
+87
+3,891
+Este gráfico refleja tu nivel de consumo.
+A menor uso; mayor apoyo.
+Subtotal
+Costos de la energía en el Mercado Eléctrico Mayorista
+Desglose del importe a pagar
+Concepto
+$
+S/kW
+S/kWh
+Importe (MXN)
+Concepto
+Importe (MXN)
+Suministro
+301.26
+0.00
+0.00
+301.26
+Energia
+24,230.65
+Distribución
+0.00
+0.00
+8,452.45
+8,452.45
+Cuenta((3))
+-200.74
+Transmisión
+0.00
+0.00
+,282.21
+,282.21
+Subtotal
+24,029.91
+CENACE
+0.00
+0.00
+53.43
+53.43
+IVA 169
+3,844.79
+Energía
+0.00
+0.00
+6,112.50
+6,112.50
+Fac. del Periodo
+27,874.70
+Capacidad
+0.00
+0.00
+3,956.49
+3,956.49
+DAP((2))
+1,863.90
+SCnMEM(I)
+0.00
+0.00
+43.94
+43.94
+Credito((3))
+-19.55
+Total
+29,719.05
+Fecha; hora y lugar de impresion:23/10/2025 14.40.39hrsPlaya Roqueta Esq Rio HondoSinDesarrollo San PabloQueretaroQueretaroQueretaroMexicoCP 76130
+(1) SCnMEM: Costos relacionados con los servicios del Mercado. (2) DAP: Derecho al Alumbrado Público. (3) Cargos 0 créditos: Diversos conceptos que se pueden incluir en el aviso recibo relacionados con el suministro.
+CFE contigo
+4971
+CFE
+CF
+76140 87-07-16 XAXX-010101 003 CFE
+077870702852 251101 000029719 2
+829,719
+(VEINTINUEVE MIL SETECIENTOS DIECINUEVE PESOS
+MN:)
+24DPO9BO1249047ORepartir
+Pago

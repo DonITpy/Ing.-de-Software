@@ -1,0 +1,165 @@
+@FE
+Comisión Federal de Electricidad
+Av. Paseo de la Reforma 164, Col. Juárez,
+Alcaldía: Cuauhtémoc; Código Postal: 06600,
+Comisión Federal de Electricidad
+Ciudad de México. RFC: CFE3708140/0
+SERV INMOB EL PUENTE SA CV
+TOTAL A PAGAR:
+AV MANUFACTURA
+120
+82,108
+PLAZA EL PUENTE
+QUINTAS LA LABORCILLA 8
+(DOS MIL CIENTO OCHO PESOS MN:)
+G.P.76168
+QUERETARO;QRO.
+NO. DE SERVICIO-076250479502
+PERIODO FACTURADO:03 SEP 25-06 OCT 25
+RMU:76168 25-04-11 SIPO-51004 025 CFE
+CUENTA:B2DPO9A016215113
+TARIFAPDBT
+NO. MEDIDOR:XCU154
+MULTIPLICADOR:1
+FECHA LIMITE DE PAGO-2O OCT 25
+NO HILOS:2
+CARGA CONECTADA kW:3
+DEMANDA CONTRATADA kW:3
+CORTE A
+PARTIR:21 OCT 25
+Lectura actual
+Lectura anterior
+Concepto
+No. medidor
+Medida
+Estimada
+Medida
+Estimada
+Diferencia
+Totales
+kWh
+XCU154
+605
+223
+382
+382
+Mes
+Días de mes
+Consumo prom. diario
+Energía kWh
+Precios
+/kWh
+Mes
+Factor de proporción
+Demanda máxima $/kW
+Precios $/kW
+Importe (MXN)
+Factor de potencia
+Costos de la energía en el Mercado Eléctrico Mayorista
+Desglose del importe a pagar
+Concepto
+$
+S/kW
+S/kWh
+Importe (MXN)
+Concepto
+Importe (MXN)
+Suministro
+36.89
+0.00
+0.00
+36.89
+Cargo Fijo((3))
+36.89
+Distribución
+0.00
+0.00
+371.38
+371.38
+Energia
+1,589.85
+Transmisión
+0.00
+0.00
+69.10
+69.10
+Reconexion((3))
+78.45
+CENACE
+0.00
+0.00
+4.05
+4.05
+Subtotal
+1,705.19
+Energía
+0.00
+0.00
+694.86
+694.86
+IVA 16%
+272.83
+Capacidad
+0.00
+0.00
+448.09
+448.09
+Facturacion del Periodo
+1,978.02
+SCnMEM(1)
+0.00
+0.00
+2.37
+2.37
+DAP((2))
+130.14
+Adeudo Anterior
+606.70
+Su Pago
+606.00
+Total
+2,108.86
+TOTAL
+36.89
+0.00
+1,589.85
+1,626.73
+Fecha; hora y lugar de impresion:23/10/2025 16.35:1ghrsJuarezNo 6 NorteCentro HistoricoQueretaroQueretaroQueretaroMexicoCP 76000
+(1) SCnMEM: Costos relacionados con los servicios del Mercado. (2) DAP: Derecho al Alumbrado Público. (3) Cargos 0 créditos: Diversos conceptos
+se pueden incluir en el aviso recibo relacionados con el suministro
+CFE -contigo
+4971
+CFE
+76168 25-04-11 SIPO-51004
+025 CFE
+01 076250479502 251020 000002108
+$2,108
+(DOS MIL CIENTO OCHO PESOS MN:)
+62DPO9AO162151 13Repartir
+que
+
+================================================================================
+ANÁLISIS DE PATRONES:
+================================================================================
+
+SECCIÓN TOTAL A PAGAR:
+TOTAL A PAGAR:
+AV MANUFACTURA
+120
+82,108
+PLAZA EL PUENTE
+QUINTAS LA LABORCILLA 8
+(DOS MIL CIENTO OCHO PESOS MN:)
+G.P.76168
+QUERETARO;QRO.
+NO. DE SERVICIO-076250479502
+PERIODO FACTURADO:03 SEP 25-06 OCT 25
+RMU:7616
+
+ANTES DE TOTAL A PAGAR:
+00,
+Comisión Federal de Electricidad
+Ciudad de México. RFC: CFE3708140/0
+SERV INMOB EL PUENTE SA CV
+TOTAL A PAGAR
+

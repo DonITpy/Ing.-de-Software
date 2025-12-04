@@ -1,0 +1,138 @@
+@FE
+Comisión Federal de Electricidad
+Av. Paseo de la Reforma 164, Col. Juárez,
+Alcaldía: Cuauhtémoc; Código Postal: 06600,
+Comisión Federal de Electricidad
+Ciudad de México. RFC: CFE3708140/0
+SERV INMOB EL PUENTE SA CV
+TOTAL A PAGAR:
+AV MANUFACTURA
+126
+$382
+QUINTAS LA LABORCILLA 8
+(TRESCIENTOS OCHENTA Y DOS PESOS MN:)
+G.PCODIGO_POSTAL
+QUERETARO;QRO
+NO. DE SERVICIO-076250579019
+PERIODO FACTURADO:04 AGO 25-06 OCT 25
+RMU:76168 25-05-09 SIPO-51004 010 CFE
+CUENTA:G2DPO9A016215118
+TARIFAPDBT
+NO. MEDIDOR-Y463KR
+MULTIPLICADOR:1
+FECHA LIMITE DE PAGO-2O OCT 25
+NO HILOS:2
+CARGA CONECTADA kW:O
+DEMANDA CONTRATADA kW-O
+CORTE A
+PARTIR:21 OCT 25
+Lectura actual
+Lectura anterior
+Concepto
+No. medidor
+Medida
+lEstimada
+Medida
+Estimada
+Diferencia
+Totales
+kWh
+Y463KR
+97
+24
+73
+73
+Mes
+Días de mes
+Consumo prom. diario
+Energía kWh
+Precios
+/kWh
+Mes
+Factor de proporción
+Demanda máxima $/kW
+Precios $/kW
+Importe (MXN)
+Factor de potencia
+Costos de la energía en el Mercado Eléctrico Mayorista
+Desglose del importe a pagar
+Concepto
+$
+S/kW
+S/kWh
+Importe (MXN)
+Concepto
+Importe (MXN)
+Suministro
+73.78
+0.00
+0.00
+73.78
+Cargo Fijo((3))
+73.78
+Distribución
+0.00
+0.00
+70.97
+70.97
+Energia
+304.62
+Transmisión
+0.00
+0.00
+13.20
+13.20
+Pago a Cuenta((3))
+-70.37
+CENACE
+0.00
+0.00
+0.63
+0.63
+Subtotal
+308.03
+Energía
+0.00
+0.00
+133.38
+133.38
+IVA 16%
+49.28
+Capacidad
+0.00
+0.00
+85.98
+85.98
+Facturacion del Periodo
+357.31
+SCnMEM(1)
+0.00
+0.00
+0.46
+0.46
+DAP((2))
+24.64
+Adeudo Anterior
+87.85
+Su Pago
+-87.00
+Total
+382.80
+TOTAL
+73.78
+0.00
+304.62
+378.40
+Fecha; hora y lugar de impresion:23/10/2025 16.35.35hrsJuarezNo 6 NorteCentro HistoricoQueretaroQueretaroQueretaroMexicoCP 76000
+(1) SCnMEM: Costos relacionados con los servicios del Mercado. (2) DAP: Derecho al Alumbrado Público. (3) Cargos 0 créditos: Diversos conceptos
+se pueden incluir en el aviso recibo relacionados con el suministro
+CFE -contigo
+4971
+CFE
+76168 25-05-09 SIPO-51004
+010 CFE
+076250579019 251020 000000382 5
+$382
+(TRESCIENTOS OCHENTA Y DOS PESOS MN:)
+62DPO9AO162151 18Repartir
+que

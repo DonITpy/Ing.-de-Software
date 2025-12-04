@@ -1,0 +1,83 @@
+Este gráfico refleja tu nivel de consumo. A menor uso, mayor apoyo. 
+(1) SCnMEM: Costos relacionados con los servicios del Mercado. (2) DAP: Derecho al Alumbrado Público. (3) Cargos o créditos: Di versos conceptos que se pueden incluir en el aviso recibo relacionados con el suministro.Subtotal
+ConceptoDesglose del importe a pagar
+Importe (MXN) Importe (MXN) ConceptoCostos de la energía en el Mercado Eléctrico Mayorista 
+$/kWh $/kW $ 
+Concepto Total 
+periodo (MXN)Subtotal
+(MXN)Lectura actual
+Medida  Estimada  Lectura anterior
+Estimada  Medida  Precio
+RFC: CFE370814QI0Comisión Federal de Electricidad
+Av. Paseo de la Reforma 164, Col. Juárez,
+Alcaldía: Cuauhtémoc, Código Postal: 06600,
+Ciudad de México. 
+PEREZ VERDIA G FERNANDO
+CASTANO 5 ARBOLEDAS
+JACARANDA Y LIQUIDAMBAR
+ARBOLEDAS LAS         8C.P.76140
+QUERETARO,QRO.
+NO. DE SERVICIO:077010703991
+RMU:76140 01-07-06 XAXX-010101 002 CFE
+CUENTA:40DP09B013908909
+LÍMITE DE PAGO:13 NOV 25
+CORTE A PARTIR:14 NOV 25
+TARIFA:01NO. MEDIDOR:6J6G26
+MULTIPLICADOR:1
+NO HILOS:1
+PERIODO FACTURADO:25 AGO 25-28 OCT 25TOTAL A PAGAR:
+$271
+$271(DOSCIENTOS SETENTA Y UN PESOS  M.N.)
+(DOSCIENTOS SETENTA Y UN PESOS  M.N.) X X
+Energía (kWh)
+ ↓
+Apoyo Gubernamental 390.90
+Fecha, hora y lugar de impresion:03/11/2025 20:27:23hrsPlaya Roqueta Esq Rio HondoSinDesarrollo San PabloQueretaroQueretaroQueretaroMexicoCP 76130
+76140 01-07-06 XAXX-010101 002 CFE
+40DP09B013908909Repartir01 077010703991 251113 000000271 0
+-1-
+Estim 63,075 0
+Basico 150 1.095 164.25
+Intermedio 130 1.330 172.90
+Excedente 71 3.889 276.11
+Suministro 73.78 0.00 0.00 73.78
+Distribución 0.00 0.00 358.72 358.72
+Transmisión 0.00 0.00 63.50 63.50
+CENACE 0.00 0.00 3.72 3.72
+Energía 0.00 0.00 305.02 305.02
+Capacidad 0.00 0.00 197.26 197.26
+SCnMEM(1) 0.00 0.00 2.18 2.18Energia 613.27
+IVA 16% 98.12
+Fac. del Periodo 711.39
+DAP((2)) 60.00
+Credito Aplic.  Fac.((3)) -500.00
+Diferencia por redondeo 0.42
+Total 271.81
+CONSUMO HISTÓRICO
+Conoce los servicios de los diferentes suministradores: http://usuariocalificado.cre.gob.mx/UsuarioCalificado/ListadoSuministrador Importe Pagos Pendientes 
+de Pago
+jun-17 ago-17 oct-17 dic-17 feb-18 abr-18 jun-18 ago-18 oct-18 dic-18 feb-19Período
+¡AVISO IMPORTANTE!
+Instancias y recursos a disposición de los usuarios para atender quejas: 
+ 
+Datos Fiscales del Receptor     Cadena Original     Este documento es una representación impresa de un CFDI PPD
+RFC: PEGF681228UK0 Razón Social:  Régimen Fiscal: 000 Uso CFDI:  CP: 00000 AC Folio: 000083999149 Folio Fiscal: UUID N. Certificado del SAT:  No. certificado del CSD:  Fecha y hora de certificación:  
+Unidad de medida: kWh
+||1.0|UUID||||||
+Tu comprobante fiscal es emitido por Comision Federal de Electricidad con el RFC CFE 370814QI0.
+¿Confort o desperdicio? Cuida tu consumo electrico. Nuestro compromiso es seguir conectados contigo.
+Corte a partir del 14 NOV 25.
+Su consumo de energia electrica esta dentro del rango de consumo EXCEDENTE,  que  es  mayor a 280 kWh bimestrales.
+Le invitamos a que se registre en nuestro portal y disfrute de la comodidad de nuestros servicios en linea.
+-2-
+del 25 ABR 25 al 27 JUN 25 346 $739. 00 $739. 00
+del 24 FEB 25 al 25 ABR 25 340 $707. 00 $707. 00
+del 27 DIC 24 al 24 FEB 25 340 $702. 00 $702. 00
+del 29 OCT 24 al 27 DIC 24 340 $682. 00 $682. 00
+del 28 AGO 24 al 29 OCT 24 340 $677. 00 $677. 00
+del 26 JUN 24 al 28 AGO 24 340 $672. 00 $672. 00
+del 25 ABR 24 al 26 JUN 24 340 $667. 00 $667. 00
+del 23 FEB 24 al 25 ABR 24 340 $662. 00 $662. 00
+del 26 DIC 23 al 23 FEB 24 340 $658. 00 $658. 00
+del 26 OCT 23 al 26 DIC 23 340 $652. 00 $652. 00
+del 28 AGO 23 al 26 OCT 23 340 $643. 00 $643. 00

@@ -1,0 +1,132 @@
+CFE
+Comisión Federal de Electricidad
+Av. Paseo de la Reforma 164, Col. Juárez,
+Alcaldía: Cuauhtémoc; Código Postal: 06600,
+Comisión Federal de Electricidad
+Ciudad de México. RFC: CFE370814Q/0
+CONSTRUCTORA JUPAVA SA DE CV
+TOTAL A PAGAR:
+FDO MONTES DE OCA 11 3
+$7,711
+CHURUBUSCO Y A MELGAR Y FINIQ.02 07 96 MEDD RETIR
+(SIETE MIL SETECIENTOS ONCE PESOS MN:)
+NINOS HEROES
+7C.P.76010
+QUERETARO,QRO.
+DESCARGA NUESTRA ApP AUtorizAdA
+NO. DE SERVICIO:076960804267
+RMU:76010 96-08-13 XAXX-010101 003 CFE
+CUENTA:1 7DPO9AO11740186
+CFE-coptigo
+5249
+LIMITE DE PAGO:27 SEP 25
+CORTE
+PARTIR:28 SEP 25
+CFE
+TARIFA:OINO. MEDIDOR:MF972D
+MULTIPLICADOR:1
+NO HILOS:2
+00@
+PERIODO FACTURADO:14 JUL 25-10 SEP 25
+Concepto
+Lectura actual
+Lectura anterior
+Total
+Precio
+Subtotal
+Medida
+Estimada
+Medida
+Estimada
+periodo
+(MXN)
+(MXN)
+Energía (kWh)
+39,893
+38,095
+798
+Basico
+150
+1,091
+163.65
+Intermedio
+130
+1.325
+172.25
+Excedente
+1,518
+3.875
+5,882.25
+Este gráfico refleja tu nivel de consumo.
+A menor uso, mayor apoyo.
+Subtotal
+Costos de la energía en el Mercado Eléctrico Mayorista
+Desglose del importe a pagar
+Concepto
+$
+S/kW
+S/kWh
+Importe (MXN)
+Concepto
+Importe (MXN)
+Suministro
+73.78
+0.00
+0.00
+73.78
+Energía
+6,218.15
+Distribución
+0.00
+0.00
+1,837.56
+1,837.56
+IVA 16%
+994.90
+Transmisión
+0.00
+0.00
+325.26
+325.26
+Fac. del Periodo
+7,213.05
+CENACE
+0.00
+0.00
+11.69
+11.69
+DAP((2))
+497.45
+Energía
+0.00
+0.00
+1
+,576.85
+1,576.85
+Adeudo Anterior
+9,009.92
+Capacidad
+0.00
+0.00
+1,019.47
+1,019.47
+Su Pago
+~9,009.00
+SCnMEM(1)
+0.00
+0.00
+11.15
+11.15
+Total
+7,711.42
+Fecha; hora y lugar de impresion: 18/09/2025 13:1 1:S6hrsJJuarezNo 6 NorteCentro HistoricoQueretaroQueretaroQueretaroMexicoCP 76000
+(1) SCnMEM: Costos relacionados con los servicios del Mercado. (2) DAP: Derecho al Alumbrado Público. (3) Cargos 0 créditos: Diversos conceptos que se pueden incluir en el aviso recibo relacionados con el suministro.
+CFE contigo
+4971
+CFE
+CF
+76010 96-08-13 XAXX-010101 003 CFE
+076960804267 250927 000007711
+$7,711
+(SIETE MIL SETECIENTOS ONCE PESOS MN:)
+17DPO9AO11740186Repartir

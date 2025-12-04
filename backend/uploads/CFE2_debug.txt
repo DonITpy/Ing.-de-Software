@@ -1,0 +1,56 @@
+Este gráfico refleja tu nivel de consumo. A menor uso, mayor apoyo. 
+(1) SCnMEM: Costos relacionados con los servicios del Mercado. (2) DAP: Derecho al Alumbrado Público. (3) Cargos o créditos: Di versos conceptos que se pueden incluir en el aviso recibo relacionados con el suministro.Subtotal
+ConceptoDesglose del importe a pagar
+Importe (MXN) Importe (MXN) ConceptoCostos de la energía en el Mercado Eléctrico Mayorista 
+$/kWh $/kW $ 
+Concepto Total 
+periodo (MXN)Subtotal
+(MXN)Lectura actual
+Medida  Estimada  Lectura anterior
+Estimada  Medida  Precio
+RFC: CFE370814QI0Comisión Federal de Electricidad
+Av. Paseo de la Reforma 164, Col. Juárez,
+Alcaldía: Cuauhtémoc, Código Postal: 06600,
+Ciudad de México. 
+CARDENAS LIZZIY ALEJANDRO
+COLINA LOS LIMONES M 25 L 18
+C.LOS LIMONES
+COLINAS PLUSC.P.23444
+SAN JOSE DEL CABO,BCS
+NO. DE SERVICIO:009090402371
+RMU:23444 09-04-26 XAXX-010101 004 CFE
+CUENTA:23DA17B010363080
+LÍMITE DE PAGO:03 OCT 25
+CORTE A PARTIR:04 OCT 25
+TARIFA:1CNO. MEDIDOR:NE650C
+MULTIPLICADOR:1
+NO HILOS:2
+PERIODO FACTURADO:17 JUL 25-17 SEP 25TOTAL A PAGAR:
+$7,828
+$7,828(SIETE MIL OCHOCIENTOS VEINTIOCHO PESOS  M.N.)
+(SIETE MIL OCHOCIENTOS VEINTIOCHO PESOS  M.N.)X X 
+Energía (kWh)
+ ↓
+Fecha, hora y lugar de impresion:04/11/2025 20:34:36hrsMision San Jose Esq.Mision San JavierChula VistaSan Jose del CaboBaja California SurMexicoCP 23443
+23444 09-04-26 XAXX-010101 004 CFE
+23DA17B010363080Repartir01 009090402371 251003 000007828 8
+-1-
+32,154 30,085 2,069
+Basico 300 0.973 291.90
+Intermedio1 300 1.127 338.10
+Intermedio2 300 1.450 435.00
+Excedente 1,169 3.875 4,529.87
+Suministro 156.58 0.00 0.00 156.58
+Distribución 0.00 0.00 1,799.41 1,799.41
+Transmisión 0.00 0.00 374.28 374.28
+CENACE 0.00 0.00 13.45 13.45
+Energía 0.00 0.00 2,004.86 2,004.86
+Capacidad 0.00 0.00 1,067.60 1,067.60
+SCnMEM(1) 0.00 0.00 12.83 12.83Energia 5,594.88
+IVA 16% 895.18
+Fac. del Periodo 6,490.06
+Aire Acond 1,338.00
+Adeudo Anterior 5,626.39
+Su Pago -5,626.00
+Total 7,828.45CONSUMO HISTÓRICO
+Conoce los serv

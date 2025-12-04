@@ -1,0 +1,132 @@
+CFE
+Comisión Federal de Electricidad
+Av. Paseo de la Reforma 164, Col. Juárez,
+Alcaldía: Cuauhtémoc; Código Postal: 06600,
+Comisión Federal de Electricidad
+Ciudad de México. RFC: CFE370814Q/0
+ALVAREZ GUTIERREZ JOSE FRANCIS
+TOTAL A PAGAR:
+MUSGO 15 3 SECC ALAMOS
+$18,068
+ESQ SETO
+(DIECIOCHO MIL SESENTA Y OCHO PESOS MN:)
+ALAMOS 3A SECC
+8G.P.76160
+QUERETARO,QRO.
+DESCARGA NUESTRA ApP AUtorizAdA
+NO. DE SERVICIO:077890800044
+RMU:76160 89-08-01 AAGF-461118 001 CFE
+CUENTA:I2DPO9AO11211660
+CFE-coptigo
+5249
+LIMITE DE PAGO:24 OCT 25
+CORTE
+PARTIR:25 OCT 25
+CFE
+TARIFA:OINO. MEDIDOR-WWVO64
+MULTIPLICADOR:1
+NO HILOS:2
+00@
+PERIODO FACTURADO:07 AGO 25-08 OCT 25
+Concepto
+Lectura actual
+Lectura anterior
+Total
+Precio
+Subtotal
+Medida
+Estimada
+X
+Medida
+Estimada
+periodo
+(MXN)
+(MXN)
+Energía (kWh)
+Estim
+1,473
+Basico
+150
+1,095
+164.25
+Intermedio
+130
+1.330
+172.90
+Excedente
+3,660
+3.889
+14,233.74
+Este gráfico refleja tu nivel de consumo.
+A menor uso, mayor apoyo.
+Subtotal
+Costos de la energía en el Mercado Eléctrico Mayorista
+Desglose del importe a pagar
+Concepto
+$
+S/kW
+S/kWh
+Importe (MXN)
+Concepto
+Importe (MXN)
+Suministro
+73.78
+0.00
+0.00
+73.78
+Energía
+14,570.89
+Distribución
+0.00
+0.00
+4,026.68
+4,026.68
+IVA 16%
+2,331.34
+Transmisión
+0.00
+0.00
+712.75
+712.75
+Fac. del Periodo
+16,902.23
+CENACE
+0.00
+0.00
+41.76
+41.76
+DAP((2))
+1,165.67
+Energía
+0.00
+0.00
+3,423.86
+3,423.86
+Adeudo Anterior
+78,306.47
+Capacidad
+0.00
+0.00
+2,214.28
+2,214.28
+Su Pago
+-78,306.00
+SCnMEM(1)
+0.00
+0.00
+24.43
+24.43
+Total
+18,068.37
+Fecha; hora y lugar de impresion: 13/10/2025 10:19:19hrsJJuarezNo 6 NorteCentro HistoricoQueretaroQueretaroQueretaroMexicoCP 76000
+(1) SCnMEM: Costos relacionados con los servicios del Mercado. (2) DAP: Derecho al Alumbrado Público. (3) Cargos 0 créditos: Diversos conceptos que se pueden incluir en el aviso recibo relacionados con el suministro.
+CFE contigo
+4971
+CFE
+CF
+76160 89-08-01 AAGF-461118 001 CFE
+077890800044 251024 000018068
+$18,068
+(DIECIOCHO MIL SESENTA Y OCHO PESOS
+MN:)
+12DPO9AO1121166ORepartir
